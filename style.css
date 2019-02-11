@@ -221,7 +221,7 @@ li>a:only-child:after {
   }
 }
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 320px) {
   nav ul li {
     display: block;
     width: 100%;
