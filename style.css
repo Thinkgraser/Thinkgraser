@@ -157,7 +157,7 @@ li>a:only-child:after {
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width: 1100px) {
+@media all and (min-width: 1001px) {
   /* Hide the navigation menu by default */
   /* Also hide the  */
   .toggle+a,
@@ -227,7 +227,7 @@ li>a:only-child:after {
 @media all and (max-width: 1000px) {
   nav ul li {
     display: block;
-    width: 94%;
+    width: 100%;
   }
 }
 
