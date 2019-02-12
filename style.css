@@ -157,7 +157,7 @@ li>a:only-child:after {
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (min-width: 1001px) {
+@media all and (max-width: 1001px) {
   /* Hide the navigation menu by default */
   /* Also hide the  */
   .toggle+a,
