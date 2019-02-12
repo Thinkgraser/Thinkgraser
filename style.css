@@ -224,7 +224,7 @@ li>a:only-child:after {
   }
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1366px) and (height: 1024px) and (orientation: landscape) {  nav ul li {
+@media only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape) {  nav ul li {
     display: block;
     width: 100%;
   } }
