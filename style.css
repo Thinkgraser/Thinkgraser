@@ -238,6 +238,10 @@ li>a:only-child:after {
     display: block;
     width: 100%;
     }
+    
+    .menu {
+    display: none;
+  }
 }
 
 ul a {
