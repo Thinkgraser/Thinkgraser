@@ -233,10 +233,17 @@ li>a:only-child:after {
     width: 100%;
   }
 }
-  @media only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape) {  nav ul li {
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+     nav ul li {
     display: block;
     width: 100%;
-  } }
+  }
+
+}
 
 ul a {
   background: rgba(0, 0, 0, .5);
