@@ -241,7 +241,6 @@ li>a:only-child:after {
      nav ul li {
     display: block;
     width: 100%;
-       position: relitive;
   }
 
 }
