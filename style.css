@@ -169,7 +169,7 @@ only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape
 
 
 
-@media all and (max-width: 1113px) {
+@media all and (min-width: 1113px) {
   /* Hide the navigation menu by default */
   /* Also hide the  */
   .toggle+a,
@@ -236,7 +236,6 @@ only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape
   }
   
 }
-
 
 ul a {
   background: rgba(0, 0, 0, .5);
