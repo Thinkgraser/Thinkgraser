@@ -236,6 +236,7 @@ li>a:only-child:after {
 @media only screen 
   and (min-device-width: 1366px) 
   and (max-device-width: 1366px) 
+  and (orientation: landscape)
  {
      nav ul li {
     display: block;
