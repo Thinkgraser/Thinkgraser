@@ -158,8 +158,7 @@ li>a:only-child:after {
 --------------------------------------------- */
 
 
-@media all and (max-width: 1112px),
-only screen and (width: 1366px) and (height: 1024px) and (orientation: landscape){
+@media all and (max-width: 1112px){
   nav ul li {
     display: block;
     width: 100%;
