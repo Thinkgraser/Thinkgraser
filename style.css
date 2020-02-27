@@ -71,7 +71,7 @@ nav ul {
 /* Positioning the navigation items inline */
 
 nav ul li {
-  Width: 25%;
+  Width: 20%;
   line-height: 32px;
   Text-align: center;
   display: inline-block;
