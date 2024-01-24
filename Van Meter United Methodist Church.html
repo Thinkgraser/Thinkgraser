@@ -63,9 +63,13 @@
         color:#fff;
         background-color: transparent ;
       }
-      .dropdown:hover .dropdown-menu {
+
+      @media (pointer:none), (pointer:coarse) {
+        .dropdown:hover .dropdown-menu {
   display: block;
 }
+}
+      
 
       .react-loading-skeleton {
         --base-color: #ebebeb;
