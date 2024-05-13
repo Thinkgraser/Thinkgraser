@@ -3,53 +3,35 @@
 <title>
   Thinkgraser
 </title>
-<nav>
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137694046-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-137694046-1');
 </script>
-
-
-
-  <label for="drop" class="toggle" style="
-    background: rgba(0, 0, 0, .5);
-    Line-height: 34px;
-">Menu</label>
-  <input type="checkbox" id="drop" />
-  <ul class="menu">
-    <li><a href=index.html>HOME</a></li>
-    <li>
-      <!-- First Tier Drop Down -->
-      <label for="drop-1" class="toggle">VIDEOS</label>
-      <a>VIDEOS</a>
-      <input type="checkbox" id="drop-1" />
-      <ul>
-        <li><a href=Videos.html>Call Of Duty</a></li>
-        
-      </ul>
-    </li>
-    <li>
-      <!-- First Tier Drop Down -->
-      <label for="drop-2" class="toggle">SOCIAL MEIDA</label>
-      <a>SOCIAL MEDIA</a>
-      <input type="checkbox" id="drop-2" />
-      <ul>
-        <li><a href="https://www.youtube.com/channel/UCuH1ykeHHrcOGWOCy_RfY6w/" target="_blank">Youtube</a></li>
-        <li><a href="https://discordapp.com/channels/514497644316590080/514497644316590083" target="_blank">Discord</a></li>
-        <li><a href="https://twitter.com/thinkgraser" target="_blank">Twitter</a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100005901856481" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com/cgwemer/?hl=en" target="_blank">Instagram</a></li>
-      </ul>
-    </li>
-    <li><a href=Thinkbot.html>THINKBOT DASHBOARD</a></li>
-    <li><a href="mailto:thinkgrazer@gmail.com" target="_blank">CONTACT ME</a></li>
-  </ul>
-</nav>
+<script src="script.js"/>
+<nav>
+        <div class="nav-toggler"><button onclick="toggleDropdown('menu')">Menu</button></div>
+        <ul id="menu" class="nav hidden">
+            <li><a href="/">Home</a></li>
+            <li onclick="toggleDropdown('d1')" class="dropdown"><a>Videos</a>
+                <ul id="d1" class="dropdown-menu hidden">
+                    <li><a href="/videos">Call Of Duty</a></li>
+                </ul>
+            </li>
+            <li onclick="toggleDropdown('d2')" class="dropdown"><a>Social Media</a>
+                <ul id="d2" class="dropdown-menu hidden">
+                    <li><a href="https://www.youtube.com/channel/UCuH1ykeHHrcOGWOCy_RfY6w/">Youtube</a></li>
+                    <li><a href="https://discordapp.com/channels/514497644316590080/514497644316590083">Discord</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100005901856481">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/cgwemer/?hl=en">Instagram</a></li>
+                </ul>
+            </li>
+            <li><a href="/thinkbot">Thinkbot Dashboard</a></li>
+            <li><a href="mailto:thinkgrazer@gmail.com">Contact Me</a></li>
+        </ul>
 <img src="Thinkgraser (4).png" class="pic">
 <h1>Links to music used on channel</h1>
 <p>All music is from NoCopyrightSounds
