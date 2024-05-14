@@ -5,27 +5,42 @@ Call Of Duty Videos
 </title>
 <script src="script.js"></script>
 
-     <nav>
-        <div class="nav-toggler"><button onclick="toggleDropdown('menu')">Menu</button>
+       <nav>
+        <div class="flex">
+            <div class="collapsed">
+                <div class="brand"><img src="logo.jpg"> Thinkgraser</div>
+                <div class="nav-toggler"><button onclick="toggleDropdown('menu')"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26"
+                            viewBox="0,0,256,256">
+                            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"
+                                stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                                text-anchor="none" style="mix-blend-mode: normal">
+                                <g transform="scale(5.12,5.12)">
+                                    <path
+                                        d="M3,9c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,24c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,39c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg></button></div>
+            </div>
+            <ul id="menu" class="nav hidden">
+                <li><a href="/">Home</a></li>
+                <li onclick="toggleDropdown('d1')" class="dropdown"><a>Videos</a>
+                    <ul id="d1" class="dropdown-menu hidden">
+                        <li><a href="/videos">Call Of Duty</a></li>
+                    </ul>
+                </li>
+                <li onclick="toggleDropdown('d2')" class="dropdown"><a>Social Media</a>
+                    <ul id="d2" class="dropdown-menu hidden">
+                        <li><a href="https://www.youtube.com/channel/UCuH1ykeHHrcOGWOCy_RfY6w/">Youtube</a></li>
+                        <li><a href="https://discordapp.com/channels/514497644316590080/514497644316590083">Discord</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100005901856481">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/cgwemer/?hl=en">Instagram</a></li>
+                    </ul>
+                </li>
+                <li><a href="/thinkbot">Thinkbot Dashboard</a></li>
+                <li><a href="mailto:thinkgrazer@gmail.com">Contact Me</a></li>
+            </ul>
         </div>
-        <ul id="menu" class="nav hidden">
-            <li><a href="/">Home</a></li>
-            <li onclick="toggleDropdown('d1')" class="dropdown"><a>Videos</a>
-                <ul id="d1" class="dropdown-menu hidden">
-                    <li><a href="/videos">Call Of Duty</a></li>
-                </ul>
-            </li>
-            <li onclick="toggleDropdown('d2')" class="dropdown"><a>Social Media</a>
-                <ul id="d2" class="dropdown-menu hidden">
-                    <li><a href="https://www.youtube.com/channel/UCuH1ykeHHrcOGWOCy_RfY6w/">Youtube</a></li>
-                    <li><a href="https://discordapp.com/channels/514497644316590080/514497644316590083">Discord</a></li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100005901856481">Facebook</a></li>
-                    <li><a href="https://www.instagram.com/cgwemer/?hl=en">Instagram</a></li>
-                </ul>
-            </li>
-            <li><a href="/thinkbot">Thinkbot Dashboard</a></li>
-            <li><a href="mailto:thinkgrazer@gmail.com">Contact Me</a></li>
-        </ul>
     </nav>
 <img src="https://i.stack.imgur.com/U5zy8.png" class="pic">
 <h1> Call Of Duty Videos </h1>
