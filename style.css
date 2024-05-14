@@ -38,9 +38,11 @@ H1 {
   z-index: -1;
 }
 
-    nav {
-        background-color: #1f2937;
+ nav {
+        background-color: rgb(47 49 54);
         text-align: center;
+
+
     }
 
     .collapsed {
@@ -88,7 +90,7 @@ H1 {
     }
 
     .nav>li a:hover {
-        background-color: rgb(55 65 81);
+        background-color: rgb(54 57 63);
         color: white;
 
     }
@@ -107,13 +109,13 @@ H1 {
         display: block;
         width: calc(100% - 2rem);
         margin: 1rem;
-        background-color: rgb(31 41 55);
+        background-color: rgb(47 49 54);
         border: none;
         border-radius: .375rem;
     }
 
     .nav-toggler>button:hover {
-        background-color: rgb(55 65 81);
+        background-color: rgb(54 57 63);
         color: white;
     }
 
@@ -136,7 +138,7 @@ H1 {
     }
 
     .dropdown>a:hover {
-        background-color: rgb(55 65 81);
+        background-color: rgb(54 57 63);
         color: white;
     }
 
@@ -151,7 +153,7 @@ H1 {
         margin: 0;
         padding: 1rem;
         position: absolute;
-        background-color: rgb(31 41 55);
+        background-color: rgb(47 49 54);
         top: 100%;
         left: 0;
         display: flex;
@@ -172,12 +174,17 @@ H1 {
     }
 
     .dropdown-menu>li a:hover {
-        background-color: #374151;
+        background-color: rgb(54 57 63);
 
     }
 
     .dropdown-menu>li:hover a {
         color: white;
+    }
+
+    .active {
+        color: white !important;
+        background-color: rgb(32 34 37) !important;
     }
 
     .flex {
