@@ -73,7 +73,6 @@ H1 {
         align-items: center;
         gap: .5rem;
         padding: 1rem;
-        width: 100%;
     }
 
     .nav>li {
@@ -207,6 +206,9 @@ H1 {
 
         .nav-toggler {
             display: none;
+        }
+        .nav{
+          width: 100%;
         }
     }
 
