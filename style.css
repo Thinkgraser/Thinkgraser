@@ -263,6 +263,7 @@
         padding: .5rem;
         border-radius: .375rem;
         color: #6c757d;
+        text-decoration: none;
     }
 
     .card>a:hover {
