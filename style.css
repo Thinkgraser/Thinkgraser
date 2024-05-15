@@ -11,11 +11,6 @@
         padding: 0;
     }
 
-    #container {
-        margin-inline: auto;
-        max-width: 890px;
-    }
-
     H1 {
         text-align: center;
         Color: black;
