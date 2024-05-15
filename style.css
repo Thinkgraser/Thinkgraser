@@ -1,48 +1,43 @@
+<style>
+    a {
+        Text-decoration: none;
+        cursor: pointer;
+    }
 
-a {
-  Text-decoration: none;
-  cursor: pointer;
-}
+    body {
+        background-color: red;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
 
-body {
-  background-color: red;
-  color: #ffffff;
-  margin: 0;
-  padding: 0;
-}
+    #container {
+        margin-inline: auto;
+        max-width: 890px;
+    }
 
-#container {
-  margin: 0 auto;
-  max-width: 890px;
-}
+    H1 {
+        text-align: center;
+        Color: black;
+        font-family: Arial;
 
-p {
-  text-align: center;
-  Margin-left: 10px;
-  Margin-right: 10px;
-  Color: black;
-  z-index: -1;
-}
+    }
 
-H1 {
-  text-align: center;
-  Color: black;
-  font-family: Arial;
-  z-index: -1;
-}
+    .pic {
+        Width: 100%;
+        z-index: -1;
+    }
 
-.pic {
-  Width: 100%;
-  Height: auto;
-  top: 62px;
-  z-index: -1;
-}
-
- nav {
+    nav {
         background-color: rgb(47 49 54);
         text-align: center;
 
 
+    }
+
+    body {
+        background-color: red;
+        margin: 0;
     }
 
     .collapsed {
@@ -191,6 +186,12 @@ H1 {
 
     }
 
+    .grid {
+        display: grid;
+        gap: .5rem;
+        margin: 1rem;
+    }
+
     .hidden {
         display: none;
     }
@@ -207,8 +208,13 @@ H1 {
         .nav-toggler {
             display: none;
         }
-        .nav{
-          width: 100%;
+
+        .nav {
+            width: 100%;
+        }
+
+        .grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
         }
     }
 
@@ -234,4 +240,56 @@ H1 {
         .flex {
             flex-direction: column;
         }
+
+        .grid {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
     }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(47 49 54);
+        width: 75%;
+        margin-inline: auto;
+        border-radius: .375rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .card>a {
+        border: 1px solid #6c757d;
+        margin-block: 1em;
+        min-width: 50%;
+        max-width: 90%;
+        word-break: normal;
+        padding: .5rem;
+        border-radius: .375rem;
+        color: #6c757d;
+    }
+
+    .card>a:hover {
+        color: white;
+        background-color: #6c757d;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-border {
+        border-radius: 22px;
+        background-color: rgb(47 49 54);
+        padding: 1rem;
+    }
+
+    .border {
+        border-radius: 6px;
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+</style>
